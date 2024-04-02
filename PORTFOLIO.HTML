@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmoy's PORTFOLIO WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family:'poppins' 'sans-serif';
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(14, 14, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li a:hover{
+                color: aquamarine;
+                font-size: 1.08rem;
+            }
+            main hr {
+                border: 0;
+                background: #9c97f1;
+                height: 1.2px;
+                margin: 40px 84px;
+            }
+        .left{
+            font-size: 1.5rem;
+        }
+        .left:hover{
+            color: rgb(43, 226, 144);
+            font-size: 1.58rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+        }
+            .firstSection > div{
+                width: 30%;
+            }
+
+        .leftSection{
+        font-size: 1.5rem;
+        
+        }
+        .leftSection .buttons{
+            padding: 50px 0; 
+        }
+        .leftSection .btn{
+padding:6px;
+background: green;
+color: yellow;
+border: 2px solid black;
+border-radius: 6px;
+font-size: 15px;
+cursor: pointer;
+
+
+        }
+        .rightSection img{
+            width: 95%;
+            margin: 50px 0;
+            
+            
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-gray{
+            color: green;
+        }
+        
+        #element{
+            color: blueviolet;
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+            .secondSection h1{
+                color: rgb(127, 255, 127);
+                font-size: 1.9rem;
+            }
+            .secondSection .box{
+                background: greenyellow;
+                width: 300vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+
+            }
+            .secondSection .vertical{
+                height: 93px;
+                width: 1px;
+                background: blueviolet;
+                margin: 0 120px;
+
+            }
+            
+            .image-top1{
+                width: 32px;
+                position: relative;
+                top: -32px;
+                left: -15px
+            }
+            .image-top2{
+                width: 32px;
+                position: relative;
+                top: -32px;
+                left: -15px
+            }
+            .image-top3{
+                width: 32px;
+                position: relative;
+                top: -32px;
+                left: -15px
+            }
+            .image-top4{
+                width: 32px;
+                position: relative;
+                top: -32px;
+                left: -15px
+            }
+            .image-top5{
+                width: 32px;
+                position: relative;
+                top: -32px;
+                left: -15px
+            }
+            .image-top6{
+                width: 35px;
+                position: relative;
+                top: -24px;
+                left: -15px;
+            }
+            .image-top7{
+                width: 30px;
+                position: relative;
+                top: -26px;
+                left: -15px;
+            }
+            .image-top8{
+                width: 38px;
+                position: relative;
+                top: -22px;
+                left: -16.5px;
+            }
+
+
+            .vertical-title1{
+                color: rgb(255, 165, 0);
+                position: relative;
+                top: 70px;
+                width: 150px;
+                left: -32PX;
+
+            }
+            .vertical-title2{
+                color: rgb(0, 0, 255);
+                position: relative;
+                top: 70px;
+                width: 150px;
+                left: -32PX;
+
+            }
+            .vertical-title3{
+color: yellow;
+                position: relative;
+                top: 70px;
+                width: 150px;
+                left: -32PX;
+
+            }
+            .vertical-title4{
+                color: green;
+                position: relative;
+                top: 70px;
+                width: 150px;
+                left: -32PX;
+
+            }
+            .vertical-title5{
+                color: #0bbc0b;
+                position: relative;
+                top: 70px;
+                width: 150px;
+                left: -32PX;
+
+            }
+            .vertical-title6{
+                color: rgb(0, 0, 255);
+                position: relative;
+                top: 65px;
+                width: 120px;
+                left: -15PX;
+
+            }
+            .vertical-title7{
+                color: rgb(179, 179, 12);
+                position: relative;
+                top: 70px;
+                width: 120px;
+                left: -15PX;
+
+            }
+            .vertical-title8{
+                color: rgb(162, 162, 225);
+                position: relative;
+                top: 75px;
+                width: 120px;
+                left: -15PX;
+
+            }
+            .vertical-desc1{
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            .vertical-desc2{
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            .vertical-desc3{
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            .vertical-desc4{
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            .vertical-desc5{
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            .vertical-desc6{
+                position: relative;
+                top: 83px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            
+            
+            .vertical-desc7{
+                position: relative;
+                top: 89px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            
+            
+            .vertical-desc8{
+                position: relative;
+                top: 95px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+                left: -20px;
+
+            }
+            footer{
+                background-color:#0e0e1a;
+            }
+            .footer{
+                display: flex;
+                padding: 23px 122px;
+                justify-content: space-evenly;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .footer > div{
+                width: 223px;
+            }
+            footer .footer-rights{
+                text-align: center;
+                color: gray;
+                padding: 12px 0;
+            }
+
+            
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tanmoy's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">                Tanmoy Majumder
+                </span>
+                <div>and I am an enthusiastic Web developer.</div>
+                <div>Passionate in CP.</div>
+                <div>Seeking for new learnings and internship oppurtunities.</div>
+                <span id="element"></span>
+                <div class="buttons">
+<button class="btn">Download Resume</button>
+<button class="btn">Visit Github</button>
+
+
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="coding.png" alt="">
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">SKILLS</span>
+            <h1>Work Experience</h1>
+<div class="box">
+ <div class="vertical">
+    <img class="image-top1" src="HTML.PNG" alt="">
+    <div class="vertical-title1">HTML Developer</div>
+    <div class="vertical-desc1">Work Experience</div>
+ </div>   
+ <div class="vertical">
+    <img class="image-top2" src="css.png" alt="">
+    <div class="vertical-title2">CSS Developer</div>
+    <div class="vertical-desc2">Work Experience</div>
+
+
+ </div>   
+ <div class="vertical">
+    <img class="image-top3" src="java.png" alt="">
+    <div class="vertical-title3">JS Developer</div>
+    <div class="vertical-desc3">Work Experience</div>
+
+
+
+ </div>   
+ <div class="vertical">
+    <img class="image-top4" src="nd.jpg" alt="">
+    <div class="vertical-title4">NODE JS Developer</div>
+    <div class="vertical-desc4">Work Experience</div>
+
+
+
+ </div>   
+ <div class="vertical">
+    <img class="image-top5" src="mongo.png" alt="">
+    <div class="vertical-title5">Mongodb Developer</div>
+    <div class="vertical-desc5">Work Experience</div>
+
+
+
+ </div>   
+ <div class="vertical">
+    <img class="image-top6" src="c++.png" alt="">
+    <div class="vertical-title6">C++</div>
+    <div class="vertical-desc6">Work Experience</div>
+
+
+  
+ </div>   
+ <div class="vertical">
+    <img class="image-top7" src="python.png" alt="">
+    <div class="vertical-title7">python</div>
+    <div class="vertical-desc7">Work Experience</div>
+
+
+
+ </div>   
+ <div class="vertical">
+    <img class="image-top8" src="DSA.PNG" alt="">
+    <div class="vertical-title8">DSA</div>
+    <div class="vertical-desc8">Work Experience</div>
+
+
+
+
+
+ </div>   
+ <div class="vertical"></div>   
+
+        
+        
+</div>
+
+
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Tanmoy's Developer Portfolio</h3>
+                
+            </div>
+            <div class="footer-second">
+                <ul>
+<li>TANMOY</li>
+<li>TANMOY</li>
+<li>TANMOY</li>
+<li>TANMOY</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    
+                                    </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    <li>TANMOY</li>
+                    
+                                    </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+Developed and designed by Tanmoy Majumder copyright @2024
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Love to Solve DSA Questions', 'CP Enthusiastic', 'Cricketer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
